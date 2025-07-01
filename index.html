@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Time Logger</title>
+        <link rel="stylesheet" href="/styles.css" />
+    </head>
+    <body>
+        <h1>⏱ Time Logger</h1>
+
+        <label for="sheet">Seleccionar hoja:</label><br />
+        <select id="sheet" onchange="renderButtons()">
+            <option value="">Cargando...</option>
+        </select>
+
+        <div class="btn-group" id="buttons"></div>
+
+        <p id="status"></p>
+
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

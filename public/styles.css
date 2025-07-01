@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+select,
+button {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-group {
+  margin-top: 1.5rem;
+}
+
+button:hover {
+  background-color: #e0e0e0;
+}
+
+#status {
+  margin-top: 1rem;
+  font-weight: bold;
+}
